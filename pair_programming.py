@@ -17,3 +17,9 @@ def offset_mean(array, target_mean):
         new_array.append(value + offset)
 
     return new_array
+
+'''
+Feedback: 
+- I like how it is a function so it can easily be called with a lot of different inputs. 
+- A small improvement could be having the output be a numpy array instead of a Python list because if it was in numpy functions like .mean() or .diff() could be used for tests.
+'''
